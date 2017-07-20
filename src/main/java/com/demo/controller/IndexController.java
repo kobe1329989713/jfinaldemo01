@@ -4,7 +4,7 @@ import com.jfinal.core.Controller;
 
 public class IndexController extends Controller {
 	public void index(){
-		setAttr("msg", "返回页面值==");
+		setAttr("msg", "可以热部署嘛。返回页面值==");
 		renderTemplate("index.html");
 	}
 	

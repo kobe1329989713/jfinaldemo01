@@ -1,5 +1,6 @@
 package com.demo.intercepter;
 
+import com.jfinal.aop.Invocation;
 import com.jfinal.aop.Interceptor;
 import com.jfinal.aop.Invocation;
 
